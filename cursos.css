@@ -1,0 +1,164 @@
+/*general*/
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+#cabecera{
+  
+    width: 98.6%;
+    border-radius: 0.5em;
+    background: rgb(126, 126, 255);    
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    font: 10px;
+    margin: 0.5em;
+    padding: 1em;
+    color: black;
+    font-size: 20px;
+    text-align: center;
+    font-style: bold;
+
+
+}
+
+#cabecera .logo { 
+
+right: 20em;
+}
+
+/* MENU DESPLEGABLE */
+ul, ol {
+
+    list-style:none;
+    
+    }
+    
+    .nav li a {
+    border-radius: 0.5em;
+    background-color: black;
+    color: #ffff;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: block;
+    right: 20em;
+    
+    }
+    
+    .nav li a:hover {
+        background-color:rgb(126, 126, 255);  
+    }
+    
+    .nav > li {
+        float: left;
+        
+    }
+    
+    .nav li ul {
+        display:none;
+        position:absolute;
+        min-width: 140px;
+    }
+    
+.nav li:hover > ul {
+    display: block;
+
+
+}
+
+.nav li ul li {
+
+position: relative;
+
+
+}
+
+
+/*Fondo*/
+
+body{
+
+    background: rgb(8, 0, 124);
+    
+}
+
+/* Color letra */
+a { 
+
+color: rgb(156, 223, 0);
+text-decoration:none ;
+
+}
+
+/* Contenedor*/
+
+.contenedor {
+
+    width: 90%;
+    margin: auto;
+}
+
+
+.contenedor .logo {
+
+width: 100px;
+height: 100px;
+
+}
+
+
+.logo {
+ width: 100px;
+
+
+}
+
+
+#section{
+    height: 4700px;
+    border-radius: 1em;
+    background-color:  rgb(185, 184, 184);
+    
+    margin: 2em;
+    padding: 0em;
+    color: white;
+    
+}
+
+
+
+.welcome {
+
+    font-size: 170%;
+    font-style: normal;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(0, 0, 0) ;
+    text-align: center;
+    }
+    
+
+
+
+
+
+
+
+
+
+#pie{
+    height: 5%;
+    border-radius: 1em;
+    background: blue;
+    margin: 0.5em;
+    padding: 1em;
+    font-style: italic;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: black;
+    font-size: 20px;
+}
+#insta { 
+
+    color: red
+}
