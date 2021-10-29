@@ -81,14 +81,14 @@ position: relative;
 
 body{
 
-    background: rgb(8, 0, 124);
+    background: black;
     
 }
 
 /* Color letra */
 a { 
 
-color: rgb(156, 223, 0);
+color: blue;
 text-decoration:none ;
 
 }
